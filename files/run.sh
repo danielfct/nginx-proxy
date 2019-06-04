@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -e
+set -e 
 
 if [ -z $BASIC_AUTH_USERNAME ]; then
   echo >&2 "BASIC_AUTH_USERNAME must be set"
